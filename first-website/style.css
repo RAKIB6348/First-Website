@@ -10,14 +10,22 @@
     /* pasa pashi bosar jonno display flex use korte hoi */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navigation ul li{
     list-style: none;
+    margin: 0 5px;
+    padding: 15px 0px;
 }
 
 .navigation ul li a{
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+
+.navigation ul{
+    display: flex;
+    margin-right: 50px;
 }
