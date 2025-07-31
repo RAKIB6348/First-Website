@@ -17,6 +17,7 @@
     list-style: none;
     margin: 0 5px;
     padding: 15px 0px;
+    margin-left: -5px;
 }
 
 .navigation ul li a{
@@ -24,7 +25,8 @@
     color: white;
     font-size: 18px;
     border-right: 1px solid white;
-    padding-right: 20px;
+    /* padding-right: 20px; */
+    padding: 15px 20px;
 }
 
 .navigation ul{
@@ -41,4 +43,8 @@
 .navigation > ul > li:first-child > a{
     border-left: 1px solid white;
     padding-left: 20px;
+}
+
+.navigation ul li:hover a {
+    background-color: rgb(3, 87, 172);
 }
