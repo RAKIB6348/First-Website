@@ -27,6 +27,7 @@
     border-right: 1px solid white;
     /* padding-right: 20px; */
     padding: 15px 20px;
+    transition: 0.5s;
 }
 
 .navigation ul{
