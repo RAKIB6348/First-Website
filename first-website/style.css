@@ -23,9 +23,22 @@
     text-decoration: none;
     color: white;
     font-size: 18px;
+    border-right: 1px solid white;
+    padding-right: 20px;
 }
 
 .navigation ul{
     display: flex;
     margin-right: 50px;
+}
+
+.logo h2{
+    color: white;
+    margin-left: 50px;
+
+}
+
+.navigation > ul > li:first-child > a{
+    border-left: 1px solid white;
+    padding-left: 20px;
 }
