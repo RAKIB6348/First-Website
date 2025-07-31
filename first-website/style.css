@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    /* background color diyar jonoo */
+    background-color: dodgerblue; 
+
+    /* pasa pashi bosar jonno display flex use korte hoi */
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
